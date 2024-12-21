@@ -122,4 +122,4 @@ root.grid_columnconfigure(1, weight=1)
 root.grid_columnconfigure(2, weight=1)
 
 root.mainloop()
->>>>>>> video
+

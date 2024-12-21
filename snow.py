@@ -173,7 +173,7 @@ stego_file_path.grid(row=10 ,column=2)
 
 def Back():
     root.destroy()
-    subprocess.Popen(['python', "hide_in_txt_page.py"], cwd=os.path.dirname(os.path.abspath(file)))
+    subprocess.Popen(['python', "Text.py"], cwd=os.path.dirname(os.path.abspath(__file__)))
 
 btn_back=ttk.Button(root,text="back",command=Back )
 btn_back.grid(row=11,column=1,padx=10,pady=20)

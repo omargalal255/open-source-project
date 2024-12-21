@@ -1,3 +1,4 @@
+# GUI of whole project
 from tkinter import *
 from tkinter import ttk
 import subprocess
